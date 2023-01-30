@@ -1,0 +1,21 @@
+ítem 1: he usado en comando git clone: https://github.com/claudiavegarodriguez/umafactorial.git para clonar mi repositorio a la carpeta en la que voy a trabajar.
+ítem 2: en la rama main creé el fichero factorial.java y copié y pegué el código correspondiente
+ítem 3: tal y como dice el enunciado añadí el fichero con el comando git add factorial.java e hice un commit git commit -m "implementacion inicial" a la rama main.
+ítem 4: hice los cambios pertinentes en el mismo fichero y usé el comando: git commit -m "refactorizacion" en la rama main. En este apartado aproveché para también subirlo al repo de github aunque también lo pide en el siguiente, pero quería llevar un seguimiento de todo (git push origin main)
+ítem 5: git push origin main y git checkout -b recursivo para crear una nueva rama y movernos a ella.
+ítem 6: modificacion de fichero factorial.java
+ítem 7: git add factorial.java // git commit -m implementacion recursiva // git push origin recursivo para añadir los cambios al repo de github.
+ítem 8: git checkout main, volvemos a la rama por defecto
+ítem 9: modificacion en el fichero factorial.java
+ítem 10: git add factorial.java // git commit -m "correcion numeros negativos" // git push origin main 
+ítem 11: git checkout recursivo // modificacion de fichero java // git add factorial.java // git commit -m "optimizacion" // git push origin recursivo
+ítem 12: git checkout main // git merge recursivo: todo se mezcla con éxito. 
+ítem 13: git checkout -b refacIO, creacion de la nueva rama. Se modifica el fichero factorial.java
+ítem 14: git add factorial.java // git commit -m "refactorizacion de metodo de entrada" // git push origin refacIO // se añaden más cambios al fichero pero estos últimos no se suben
+ítem 15: para poder dejar lo que estábamos haciendo como "en pausa", usamos el comando git stash dentro de la rama en la que estemos trabajando. Posterior a eso, nos movemos a la rama main con el comando git checkout main y cambiamos el código del fichero que nos indica.
+ítem 16: añadimos esto último con un git add factorial.java // git commit -m "cambio de long a BigInteger" // git push origin main. Después nos movemos a la rama de refacIO con el comando git checkout refacIO, reanudamos lo que estabámos haciendo en esa rama con git stash pop y subimos los cambios al repo con git add factorial.java // git commit -m "refactorizacion de metodo de salida" // git push origin refacIO
+ítem 17: para integrar los cambios a la rama main, volvemos a hacer un merge pero esta vez no va a funcionar por el tema de los espacios y el cambio de código que git por si solo no es capaz de mezclar. 
+ítem 18 y 19: Este problema lo he resuelto copiando en un fichero el codigo correcto y subiendolo a la rama main de la siguiente forma: git add factorial.java // git commit -m "mezcla de rama refacIO" // git push origin main
+ítem 20 y 21: después de crear este fichero lo he subido a github desde la rama main con los siguientes comandos: git add comandos-git.txt // git commit -m "adicion de historial de linea de comandos" // git push origin main
+
+Considero que con esta guía paso a paso de lo que he ido realizando, los futuros empleados de la empresa pueden resolver fácilmente casi cualquier problema que se le presenten.  
